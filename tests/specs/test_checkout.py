@@ -1,9 +1,11 @@
 import pytest
 from selenium.webdriver.common.by import By
-from tests.fixtures.driver import driver
+
+from tests.fixtures.driver import driver  # noqa: F401
+
 
 @pytest.mark.skip(reason="Broken")
-def test_compra_produto_com_sucesso(driver):
+def test_compra_produto_com_sucesso(driver):  # noqa: F811
 
     # =========================
 

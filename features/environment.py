@@ -1,5 +1,5 @@
-from tests.fixtures.driver import driver_func
 from tests.config.settings import Settings
+from tests.fixtures.driver import driver_func
 
 
 def before_all(context):

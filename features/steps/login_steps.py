@@ -1,6 +1,7 @@
-from behave import given, when, then
-from tests.pages.login_page import LoginPage
+from behave import given, then, when
+
 from tests.pages.inventory_page import InventoryPage
+from tests.pages.login_page import LoginPage
 
 
 @given("que o usuário acessa a página de login")
